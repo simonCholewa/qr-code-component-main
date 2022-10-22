@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Merriweather:ital@0;1&family=Montserrat:wght@500;700&family=Outfit:wght@400;800&family=Poppins:wght@100;200;300;400;600;700&family=Space+Mono&family=Work+Sans:ital,wght@1,500&display=swap");
+
+/* \/ Reseting deafult margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  /* \/ This is always 100 percent of the web browser's viewport height */
+  min-height: 100vh;
+  /* Centering the card */
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 360px;
+  /* \/ 0 auto centers the content of the container */
+  margin: 0 auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.card img {
+  /* \/ The text will be the same size as the image (no overflow) */
+  width: 100%;
+  border-radius: 12px;
+}
+
+.text {
+  padding: 22px 10px;
+}
+
+.text h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px;
+}
+
+.text p {
+  color: hsl(220, 15%, 55%);
+}
